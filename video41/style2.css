@@ -1,0 +1,49 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+    background-color: rgb(73, 61, 82);
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav items */
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding: 0 20px;
+}
+
+/* Logo Section */
+.nav1 {
+    flex-grow: 1; /* Pushes nav2 to the right */
+}
+
+/* Navigation List */
+.nav2 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+/* Navigation Items */
+.nav2 ul li {
+    padding: 15px 10px;
+}
+
+/* Logo & Icons */
+.img1 {
+    height: 79px;
+}
+
+.img2 {
+    height: 20px;
+    width: 20px;
+}

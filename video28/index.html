@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .one{
+            margin: 50px;
+            padding: 10px;
+            border: 3px solid red;
+            /* transform: translate(0); */
+            /* filter: blur(1); */
+            /* position: relative; */
+            perspective: 2em;
+        }
+        .box{
+            height: 20vh;
+            width: 40vh;
+            border: 2px solid black;
+            margin: 3px;
+            padding: 3px;
+        }
+        .box1{
+            background-color: aliceblue;
+            /* position: sticky; */
+            /* top: 0px; */
+            /* height: 50px; */
+            /* width: 100%; */
+            /* margin: 0; */
+            /* padding: 0; */
+            /* position: absolute; */
+            /* left: 246px; */
+            /* top: 0px; */
+        }
+        .box2{
+            background-color: aqua;
+            /* position: fixed; */
+            /* top: 500px; */
+            /* left: 45vw; */
+            /* position: absolute; */
+
+        }
+        .box3{
+            background-color: bisque;
+            /* position: relative;
+            top: 34px;
+            left: 55px;
+            z-index: 1; */
+        }
+        .box4{
+            background-color: blueviolet;
+            position: absolute;
+            top: 0px;
+            left: 500px;
+            height: 200px;
+            /* position: relative; */
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="one">
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>

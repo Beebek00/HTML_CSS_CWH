@@ -1,0 +1,115 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: rgb(138, 149, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main container */
+.box1 {
+    border: 0.5px solid rgb(173, 138, 138);
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Inner content box */
+.box2 {
+    border: 0.5px solid #b8d1db;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Image container */
+.box3 {
+    border: 1px solid rgb(210, 201, 201);
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://source.unsplash.com/400x250/?lake,nature');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Tag styling */
+.box4, .box5 {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #e0f7fa;
+    font-size: 14px;
+    margin: 5px 5px 10px 0;
+    font-weight: bold;
+    color: #00796b;
+}
+
+/* Heading */
+.head {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.define {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Read More button */
+.box6 {
+    margin-top: 10px;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #42a5f5;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background-color: #1e88e5;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+    .box1 {
+        max-width: 90%;
+    }
+
+    .box3 {
+        height: 150px;
+    }
+
+    .head {
+        font-size: 20px;
+    }
+
+    .define {
+        font-size: 14px;
+    }
+}

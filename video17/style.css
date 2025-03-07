@@ -1,0 +1,46 @@
+/* element selector */
+body{
+    background-color: rgb(214, 217, 234);
+}
+
+/* id selector */
+#firstdiv{
+    color:rgb(114 10 235);
+    background-color: rgb(254, 190, 100);
+}
+
+/* class selector */
+.div{
+    color: rgb(9, 103, 235);
+    background-color: rgb(244, 158, 210);
+}
+
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* child selector */
+div > p{
+    background-color: rgb(68, 207, 207);
+}
+
+/* descendant selector */
+div p{
+    background-color: rgb(241, 194, 135);
+}
+
+/* pseudo slectors */
+a:link{
+    background-color: rgb(186, 134, 235);
+}
+a:visited{
+    background-color: rgb(231, 178, 112);
+}
+a:hover{
+    background-color: rgb(156, 240, 174);
+}
+a:active{
+    background-color: rgb(230, 107, 144);
+}

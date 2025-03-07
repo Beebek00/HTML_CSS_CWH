@@ -1,0 +1,96 @@
+*{
+    background-color: rgb(138, 149, 168);
+}
+
+
+
+.box1{
+    
+    border: 0.5px solid rgb(100, 94, 94);
+    margin: 5px;
+    padding: 15px 10px 15px 30px;
+    width: 46vh;
+    position: absolute;
+    left: 25vh;
+    top: 20vh;
+    background-color: #f4f4f4;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.box2{
+    border: 0.5px solid #b8d1db;
+    /* margin: 5px; */
+    padding: 10px;
+    width: 37vh;
+    height: 58vh;
+    /* position: absolute; */
+    left: 25vh;
+    top: 20vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+.box3{
+    border: 1px solid rgb(210, 201, 201);
+    height: 25vh;
+    border-radius: 10px;
+    background-image: url(https://imgs.search.brave.com/7lNW1IIt41TcmDVbS1a9_fA3VUUVh-dHuNIqlcCtc3s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91bnRpdGxlZC0x/MDgwLTcyMC1weC0y/NTBfOTQ0MDA4LTEy/NjIuanBnP3NlbXQ9/YWlzX2h5YnJpZA);
+}
+.box4{
+    border: 1px solid #7b9970;
+    border-radius: 20px;
+    width:7vh;
+    display: inline-block;
+    background-color: white;
+    box-sizing: border-box;
+}
+.box5{
+    border: 1px solid #7b9970;;
+    border-radius: 20px;
+    display: inline-block;
+    width: 7vh;
+    margin: 5px;
+    background-color: white;
+   box-sizing: border-box;
+}
+.span{
+    line-height: 3.5vh;
+    font-size: 2.6vw;
+    margin-left: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.head{
+    font-size: 3.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    background-color: white;
+}
+.define{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+    font-size: 2.7vw;
+    box-sizing: border-box;
+}
+.box6{
+    border: 1px solid rgb(164, 173, 242);
+    border-radius: 25px;
+    width: 12vh;
+   position: absolute;
+   left: 110px;
+   height: 4vh;
+   margin: 10px;
+   padding-top: 5px;
+    padding-left: 5px;
+    font-size: small;
+    background-color: #eee8fe;
+}
+.link{
+    color: rgb(14, 124, 220);
+    font-size: 3vw;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #eee8fe;
+}
+    

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specivity of selectors in css.</title>
+
+    <style>
+        /*The specivity of this selector is 1*/
+        h1{
+            color: blue;
+
+
+        }
+        /* The specivity of this selector is 10 */
+        .red{
+            color: red;
+        }
+        /* The specivity of this selector is 10 */
+        .yellow{
+            color: rgb(172, 172, 48);
+        }
+        /* The specivity of this selector is 10 */
+        .purple{
+            color: rgb(191, 8, 191);
+        }
+        /* The specivity of this selector is 10 */
+       [data-x=a]{
+        color: azure;
+       }
+    
+
+    </style>
+</head>
+<div>
+<h1 style="color: aqua;" class="red yellow purple" data-x="a">
+This is  heading under div selector.
+</h1>
+</div>
+
+
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units of sizing in css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid red;
+            box-sizing: border-box;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+        }
+        .box p{
+            font-size: 2rem;
+        }
+        .container{
+            background-color: aquamarine;
+            border: 2px solid red;
+            box-sizing: border-box;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+        }
+        .container p{
+            font-size: 2em;
+        }
+        .new{
+            background-color: aqua;
+            color: red;
+            border: 2px solid purple;
+            box-sizing: border-box;
+            margin: auto;
+            width: 80vmax;
+
+        }
+    </style>
+</head>
+<body>
+    <div class = "box">
+       <p> This is a box.</p>
+    </div>
+    <div class="container">
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquid voluptate aliquam quis placeat aspernatur qui doloremque possimus modi illo? Aliquam, maiores necessitatibus ratione tenetur consequuntur eius perspiciatis saepe, aut labore possimus at vel?
+        </p>
+    </div>
+    <div class="new">
+        This is another container.
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid brown;
+    display: grid;
+    width: 80vw;
+    height: 50vh;
+grid-template-rows: 1fr 2fr 1fr;
+grid-template-columns: 1fr 2fr 1fr;
+justify-content: center;
+align-items: center;
+}
+
+.item{
+    border: 2px solid red;
+    width: 55px;
+    height: 55px;
+}
+/* .item-2{
+   
+}
+.item-4{
+    
+} */

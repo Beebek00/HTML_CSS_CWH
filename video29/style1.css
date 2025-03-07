@@ -1,0 +1,76 @@
+* {
+    background-color: rgb(138, 149, 168);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    border: 0.5px solid rgb(100, 94, 94);
+    margin: 20px auto;
+    padding: 15px 10px 15px 30px;
+    max-width: 500px;
+    position: relative;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.box2 {
+    border: 0.5px solid #b8d1db;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+
+.box3 {
+    border: 1px solid rgb(210, 201, 201);
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://source.unsplash.com/300x200/?lake,nature');
+    background-size: cover;
+    background-position: center;
+}
+
+.box4, .box5 {
+    border: 1px solid #7b9970;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: white;
+    font-size: 14px;
+    margin: 5px 5px 10px 0;
+}
+
+.head {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.define {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.box6 {
+    border: 1px solid rgb(164, 173, 242);
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #eee8fe;
+}
+
+.link {
+    color: rgb(14, 124, 220);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}

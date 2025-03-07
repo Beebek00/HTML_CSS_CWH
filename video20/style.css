@@ -1,0 +1,12 @@
+div > p{
+    color: rgb(9, 46, 230);
+    background-color: rgb(164, 220, 220);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+  p:first-child{
+    color: rgb(240, 119, 7);
+    background-color: rgb(215, 184, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ } 

@@ -1,0 +1,30 @@
+:root{
+    --color1 :rgb(244, 176, 176);
+    --color2 :rgb(121, 121, 250);
+    --color3 :rgb(118, 217, 217);
+    --color4 :rgb(244, 244, 184);
+    --color5 :rgb(240, 94, 94);
+    --defpad :20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    background-color: var(--color2);
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: var(--defpad);
+    background-color: var(--color1);
+    border: 2px solid var(--color5);
+}
+.container{
+    background-color: var(--color3);
+}
+ul li:first-child{
+    background-color: var(--color4);
+}

@@ -1,0 +1,35 @@
+.box:first-child{
+    color: blue;
+    background-color: azure;
+}
+.box:nth-child(3){
+    color: red;
+}
+.boxes::first-line{
+    color: blueviolet;
+}
+
+.boxes::before{
+   content:  "I'am a good boy."
+}
+.boxes::after{
+    content: "This is after part.";
+    color: brown;
+    background-color: aliceblue;
+}
+.box:nth-child(even){
+    color: blue;
+}
+::selection{
+    color: aqua;
+    background-color: black;
+}
+.box::first-letter{
+    color: blue;
+    font-size: larger;
+    background-color: red;
+}
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}

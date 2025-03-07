@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(94, 95, 96);
+    justify-content: center;
+   
+    padding: 30px;
+}
+.cont2{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    
+}
+.image{
+    border: none;
+    height: 150px;
+    width: 250px;
+   padding: 0px;
+
+}
+span{
+    border: 0.5px solid ;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+.cap{
+    padding: 0px;
+    margin-top: 5px;
+    background-color: white;
+   
+}
+h3{
+    padding: 0;
+    background-color: white;
+}
+.define{
+    padding: 0;
+    background-color: white;
+
+}
+button{
+    background-color: rgb(174, 236, 236);
+   border: none;
+   font-weight: bold;
+   color: blue;
+   border-radius: 20px;
+   padding: 10px;
+   margin-left: 60px;
+   margin-top: 30px;
+}
+a{
+    background-color:rgb(174, 236, 236) ;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+a a:hover{
+    background-color: rgb(69, 212, 54);
+}
+
+@media only screen and(max-width:450px){
+    .image{
+        height: 250px;
+    }
+}

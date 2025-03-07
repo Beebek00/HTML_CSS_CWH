@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 61, 82);
+}
+
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    background-color: white;
+  margin-top: 20px;
+}
+.img1{
+    height: 79px;
+    margin-top: 11px;
+}
+.img2{
+    height: 20px;
+    width: 20px;
+}
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+   
+}
+nav ul{
+    display: flex;
+    background-color: white;
+}
+.nav1{
+    margin-right: 248px;
+    margin-left: 144px;
+    background-color: white;
+}
+.nav2{
+    background-color: white;
+    margin-bottom: 30px;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    
+}
